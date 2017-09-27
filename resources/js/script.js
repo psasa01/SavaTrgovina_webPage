@@ -4,6 +4,11 @@ $(document).ready(function () {
     var season = $('.season');
 
 
+    $(window).on('resize', function () {
+        $('.bottom').remove();
+    });
+
+
     /* ------------------------------- KAKO DO NAS - COLLAPSE ------------------------- */
 
     $('.do-nas-slika, .do-nas-text, .do-nas-naslov').on('click', function () {
