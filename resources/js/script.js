@@ -4,10 +4,6 @@ $(document).ready(function () {
     var season = $('.season');
 
 
-    $(window).on('resize', function () {
-        $('.bottom').remove();
-    });
-
 
     /* ------------------------------- KAKO DO NAS - COLLAPSE ------------------------- */
 
@@ -326,4 +322,7 @@ $(document).ready(function () {
     };
 
     $('.start').delay(1000).hide();
+
+
+
 });
