@@ -581,6 +581,31 @@ header {
     z-index: 999999;
 }
 
+.cjen-cont {
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(9, 17, 36, 0.9);
+    z-index: 999999;
+    height: 4.4em;
+}
+
+.mont-balans {
+    width: 100vw;
+    text-align: center;
+    background-color: #121d34;
+}
+
+.cjen-cont h4 {
+    color: orangered;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 2.3em;
+    width: 100vw;
+    font-size: .8em;
+    background-color: rgba(34, 52, 92, 0.9);
+}
+
 .logo {
     float: left;
 }
@@ -918,9 +943,7 @@ header {
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 
-
 /* ------------------- HERO - TITLE ----------------- */
-
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 
@@ -1091,7 +1114,6 @@ header {
 
 
 /* ---------------------------------------------- CJENOVNICI ------------------------------------------ */
-
 
 /* ----------------- CJENOVNICI HEADER ---------------- */
 
@@ -1335,7 +1357,6 @@ header {
 
 
 /* ------------------------------ LINKOVI - SLIKE -------------------------- */
-
 
 /* --- SAVA --- */
 
