@@ -586,24 +586,38 @@ header {
     width: 100vw;
     background-color: rgba(9, 17, 36, 0.9);
     z-index: 999999;
-    height: 4.4em;
+    height: 3em;
+}
+
+@media (max-width: 640px) {
+    .cjen-cont {
+        height: 4.5em;
+    }
 }
 
 .mont-balans {
     width: 100vw;
     text-align: center;
-    background-color: #121d34;
 }
 
 .cjen-cont h4 {
-    color: orangered;
+    display: none;
+    line-height: 1.8em;
+    padding-top: .2em;
+    color: #f96c26;
     text-align: center;
     font-weight: 400;
     position: absolute;
-    top: 2.3em;
+    top: 2em;
     width: 100vw;
     font-size: .8em;
-    background-color: rgba(34, 52, 92, 0.9);
+    margin-bottom: .2em;
+}
+
+@media (max-width: 640px) {
+    .cjen-cont h4 {
+        display: block;
+    }
 }
 
 .logo {
@@ -710,6 +724,7 @@ header {
     margin-left: -.85em;
     display: none;
     opacity: 0;
+    z-index: 999999;
 }
 
 .cjen-drop: {
@@ -943,7 +958,9 @@ header {
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 
+
 /* ------------------- HERO - TITLE ----------------- */
+
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 
@@ -1114,6 +1131,7 @@ header {
 
 
 /* ---------------------------------------------- CJENOVNICI ------------------------------------------ */
+
 
 /* ----------------- CJENOVNICI HEADER ---------------- */
 
@@ -1357,6 +1375,7 @@ header {
 
 
 /* ------------------------------ LINKOVI - SLIKE -------------------------- */
+
 
 /* --- SAVA --- */
 
@@ -2210,7 +2229,17 @@ header {
     .bottomp {
         width: 80%;
         left: 10%;
-        font-size: .9em;
+    }
+}
+
+.bottom-orange {
+    font-weight: 200;
+    font-size: 1.8em;
+}
+
+@media (max-width: 640px) {
+    .bottom-orange {
+        display: none;
     }
 }
 
